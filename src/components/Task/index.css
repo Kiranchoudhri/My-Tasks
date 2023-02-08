@@ -1,0 +1,113 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Roboto;
+}
+
+.mainPage {
+  padding: 20px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.createTaskSection {
+  padding: 60px 50px;
+  background-color: #1a171d;
+  align-self: stretch;
+}
+.taskFormHeading {
+  color: #f3aa4e;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.formElement {
+  display: flex;
+  flex-direction: column;
+}
+
+.taskInputSection {
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  align-self: stretch;
+}
+
+.inputLabel {
+  color: #ffffff;
+  margin-bottom: 16px;
+  font-size: 18px;
+}
+
+.inputElement,
+.selectElement {
+  width: 400px;
+  padding: 10px 16px;
+  color: #1a171d;
+  background-color: #ffffff;
+  border-width: 0px;
+  font-size: 20px;
+}
+
+.selectElement {
+  cursor: pointer;
+}
+
+.tagOption {
+  padding: 10px 30px;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.addTaskBtn {
+  padding: 8px 20px;
+  background-color: #f3aa4e;
+  border-width: 0px;
+  color: #ffffff;
+  border-radius: 8px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.taskHistorySection {
+  background-color: #131213;
+  padding: 60px 50px;
+}
+
+.tagsHistoryHeading {
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+
+.tagsButtonList {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.tasksList {
+  list-style-type: none;
+}
+
+.noTasksContainer {
+  min-height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.noTasks {
+  color: #ffffff;
+  font-size: 30px;
+}
+
+

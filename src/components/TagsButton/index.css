@@ -1,0 +1,22 @@
+.tagsButtonContainer {
+  margin-right: 16px;
+}
+
+.tagsButton {
+  background-color: transparent;
+  border: 1px solid #f3aa4e;
+  color: #ffffff;
+  border-radius: 16px;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.activeBtn {
+  background-color: #f3aa4e;
+  color: #ffffff;
+  border-width: 0px;
+  border-radius: 16px;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+

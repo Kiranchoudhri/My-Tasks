@@ -1,0 +1,21 @@
+.taskItemContainer {
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  background-color: #1a171d;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.taskName {
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.taskCategory {
+  background-color: #f3aa4e;
+  color: #323f4b;
+  padding: 8px 16px;
+
+  border-radius: 16px;
+}
